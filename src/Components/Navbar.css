@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+li{
+    list-style: none;
+}
+.nav-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo1{
+    position: relative;
+    left: -57px;
+    top: 10px;
+}
+.logo2{
+    position: relative;
+    left: -43px;
+    top: 0px;
+}
+.Navbar{
+    height: 10vh;
+    line-height: 10vh;
+    box-shadow: 0px 0px 10px 3px lightgrey;
+}
+.logo1{
+    padding-left: -10px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+}
+.container{
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.negative-m{
+    margin-top: -15px;
+}
+.nav-image2{
+    position: relative;
+    left: 0px;
+    top: 4px;
+}
+.nav-image{
+    position: relative;
+    left: 0px;
+    top: 8px;
+}
+.nav-links li{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 10px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.negative-m{
+    list-style: none;
+    text-decoration: none;
+    font-size: small;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.nav-links img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 10px;
+}
